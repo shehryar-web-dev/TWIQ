@@ -1,0 +1,238 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "close": "إغلاق",
+    "search": "بحث",
+    "filter": "تصفية",
+    "sort": "ترتيب",
+    "refresh": "تحديث"
+  },
+  "navigation": {
+    "coins": "العملات",
+    "charts": "الرسوم البيانية",
+    "premium": "المميزات المدفوعة",
+    "solanaDex": "DEX Solana",
+    "tasi": "سوق تاسي",
+    "rugChecker": "فحص الاحتيال",
+    "notifications": "الإشعارات",
+    "admin": "الإدارة",
+    "socialTrading": "التداول الاجتماعي",
+    "home": "الرئيسية"
+  },
+  "pages": {
+    "coins": {
+      "title": "أسعار العملات المشفرة",
+      "subtitle": "بيانات السوق المباشرة والتحليلات للعملات المشفرة",
+      "table": {
+        "coinPrices": "أسعار العملات",
+        "coins": "عملة",
+        "rank": "#",
+        "name": "الاسم",
+        "price": "السعر",
+        "change24h": "24س",
+        "change7d": "7أ",
+        "marketCap": "القيمة السوقية",
+        "volume24h": "الحجم (24س)",
+        "supply": "المعروض",
+        "searchPlaceholder": "ابحث عن BTC، SOL…"
+      },
+      "sortOptions": {
+        "marketCap": "القيمة السوقية",
+        "volume": "الحجم 24س",
+        "price": "السعر",
+        "change24h": "التغيير 24س"
+      },
+      "marketOverview": {
+        "totalMarketCap": "إجمالي القيمة السوقية",
+        "volume24h": "الحجم 24س",
+        "avgChange24h": "متوسط التغيير 24س",
+        "topCryptocurrencies": "أفضل العملات المشفرة",
+        "allCryptocurrencies": "جميع العملات المشفرة"
+      },
+      "filters": {
+        "showFilters": "إظهار المرشحات",
+        "filters": "المرشحات",
+        "clear": "مسح",
+        "refresh": "تحديث",
+        "loadingData": "جاري تحميل بيانات العملات المشفرة...",
+        "failedToLoad": "فشل في تحميل البيانات",
+        "tryAgain": "حاول مرة أخرى",
+        "noCoinsFound": "لم يتم العثور على عملات",
+        "adjustSearchCriteria": "حاول تعديل معايير البحث"
+      },
+      "tickerCards": {
+        "marketCap": "القيمة السوقية",
+        "volume24h": "الحجم 24س",
+        "change7d": "التغيير 7أ",
+        "lastUpdated": "آخر تحديث",
+        "failedToLoad": "فشل في تحميل بيانات المؤشرات"
+      },
+      "pagination": {
+        "page": "صفحة",
+        "morePagesAvailable": "صفحات إضافية متاحة",
+        "more": "المزيد",
+        "perPage": "لكل صفحة",
+        "firstPage": "الصفحة الأولى",
+        "previousPage": "الصفحة السابقة",
+        "nextPage": "الصفحة التالية"
+      }
+    },
+    "charts": {
+      "title": "رسوم الأسعار",
+      "subtitle": "تحليل متقدم للزخم والاتجاهات السعرية"
+    },
+    "premium": {
+      "title": "المميزات المدفوعة",
+      "subtitle": "افتح رؤى التداول المتقدمة المدعومة بالذكاء الاصطناعي"
+    },
+    "solanaDex": {
+      "title": "تحليلات DEX Solana",
+      "subtitle": "بيانات التداول المباشرة ونشاط الحيتان في DEX Solana",
+      "topTraders": "أفضل المتداولين",
+      "whaleActivity": "نشاط الحيتان",
+      "trendingPairs": "أزواج التداول الرائجة",
+      "table": {
+        "pair": "الزوج",
+        "price": "السعر",
+        "change24h": "التغيير 24س",
+        "volume": "الحجم",
+        "liquidity": "السيولة"
+      },
+      "trader": {
+        "favorite": "المفضل",
+        "trades": "الصفقات",
+        "winRate": "معدل الفوز",
+        "follow": "متابعة"
+      },
+      "whale": {
+        "bought": "اشترى",
+        "sold": "باع"
+      }
+    },
+    "tasi": {
+      "title": "سوق تاسي للأوراق المالية",
+      "subtitle": "تحليل سوق الأوراق المالية السعودي ورؤى مدعومة بالذكاء الاصطناعي",
+      "disclaimer": "جميع الإشارات لأغراض إعلامية فقط. ليست نصيحة مالية.",
+      "topGainers": "أعلى الرابحين",
+      "topLosers": "أعلى الخاسرين",
+      "mostActive": "الأكثر نشاطاً",
+      "sectorPerformance": "أداء القطاعات",
+      "aiSignals": "إشارات التداول بالذكاء الاصطناعي",
+      "table": {
+        "symbol": "الرمز",
+        "name": "اسم الشركة",
+        "price": "السعر",
+        "change": "التغيير",
+        "changePercent": "نسبة التغيير",
+        "volume": "الحجم",
+        "marketCap": "القيمة السوقية",
+        "sector": "القطاع"
+      },
+      "signals": {
+        "strongBuy": "شراء قوي",
+        "buy": "شراء",
+        "hold": "احتفاظ",
+        "sell": "بيع",
+        "strongSell": "بيع قوي"
+      }
+    },
+    "rugChecker": {
+      "title": "فحص الاحتيال",
+      "subtitle": "تحليل عقود الرموز المميزة للبحث عن عمليات الاحتيال والمخاطر الأمنية",
+      "checkToken": "فحص الرمز",
+      "contractAddress": "عنوان العقد",
+      "analysisResults": "نتائج التحليل",
+      "riskLevel": "مستوى المخاطر",
+      "lowRisk": "مخاطر منخفضة",
+      "mediumRisk": "مخاطر متوسطة",
+      "highRisk": "مخاطر عالية",
+      "checks": {
+        "liquidityLocked": "السيولة مقفلة",
+        "ownerRenounced": "تنازل المالك",
+        "verifiedContract": "عقد موثق",
+        "honeypotCheck": "فحص الفخ",
+        "mintFunction": "وظيفة الإصدار",
+        "burnFunction": "وظيفة الحرق"
+      }
+    },
+    "notifications": {
+      "title": "إشعارات الرموز",
+      "subtitle": "احصل على تنبيهات لإطلاق رموز جديدة وفرص السوق",
+      "newTokens": "تنبيهات الرموز الجديدة",
+      "marketCapRange": "نطاق القيمة السوقية",
+      "memeTokens": "تنبيهات رموز الميم",
+      "customAlerts": "تنبيهات مخصصة",
+      "addContract": "إضافة عنوان العقد",
+      "alertSettings": "إعدادات التنبيه"
+    },
+    "admin": {
+      "title": "لوحة الإدارة",
+      "subtitle": "إدارة الاشتراكات والمستخدمين وإعدادات المنصة",
+      "subscriptions": "الاشتراكات",
+      "users": "المستخدمون",
+      "analytics": "التحليلات",
+      "settings": "الإعدادات"
+    },
+    "socialTrading": {
+      "title": "التداول الاجتماعي",
+      "subtitle": "اتبع أفضل المتداولين وانسخ استراتيجياتهم",
+      "topTraders": "أفضل المتداولين",
+      "copyTrading": "نسخ التداول",
+      "performance": "الأداء",
+      "follow": "متابعة",
+      "unfollow": "إلغاء المتابعة"
+    }
+  },
+  "features": {
+    "trendPrediction": {
+      "title": "ذكاء اصطناعي للتنبؤ بالاتجاهات",
+      "description": "نماذج تعلم آلة على البيانات التاريخية للتنبؤ بنقاط التحول."
+    },
+    "sentimentAnalysis": {
+      "title": "تحليل المشاعر",
+      "description": "تقييم تويتر/X، ريديت، اتجاهات جوجل."
+    },
+    "smartSignals": {
+      "title": "إشارات ذكية",
+      "description": "تنبيهات الاختراقات، الطفرات، تتبع الحيتان."
+    },
+    "riskPortfolio": {
+      "title": "تقارير المخاطر والمحفظة",
+      "description": "التعرض، VaR، الانخفاض، صحة المحفظة."
+    },
+    "aiChat": {
+      "title": "مستشار الدردشة بالذكاء الاصطناعي",
+      "description": "فك رموز إشارات السوق المخفية."
+    },
+    "newsImpact": {
+      "title": "كشف تأثير الأخبار",
+      "description": "تحليل الأخبار في الوقت الفعلي لأسعار الرموز."
+    }
+  },
+  "wallet": {
+    "connect": "ربط المحفظة",
+    "connectShort": "ربط",
+    "connecting": "جاري الربط...",
+    "disconnecting": "جاري قطع الاتصال...",
+    "loggingIn": "جاري تسجيل الدخول...",
+    "loginFailed": "فشل تسجيل الدخول. يرجى المحاولة مرة أخرى.",
+    "copyAddress": "نسخ العنوان",
+    "copied": "تم النسخ!",
+    "viewOnSolscan": "عرض على Solscan",
+    "disconnect": "قطع الاتصال"
+  },
+  "ui": {
+    "unlockPremium": "فتح المميزات المدفوعة",
+    "switchToEnglish": "Switch to English",
+    "switchToArabic": "التبديل إلى العربية",
+    "switchToDarkMode": "التبديل إلى الوضع المظلم",
+    "switchToLightMode": "التبديل إلى الوضع المضيء",
+    "toggleMenu": "تبديل القائمة"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh"
+  },
+  "navigation": {
+    "coins": "Coins",
+    "charts": "Charts",
+    "premium": "Premium",
+    "solanaDex": "Solana DEX",
+    "tasi": "TASI Market",
+    "rugChecker": "Rug Checker",
+    "notifications": "Notifications",
+    "admin": "Admin",
+    "socialTrading": "Social Trading",
+    "home": "Home"
+  },
+  "pages": {
+    "coins": {
+      "title": "Cryptocurrency Prices",
+      "subtitle": "Real-time cryptocurrency market data and analytics",
+      "table": {
+        "coinPrices": "Coin Prices",
+        "coins": "coins",
+        "rank": "#",
+        "name": "Name",
+        "price": "Price",
+        "change24h": "24h",
+        "change7d": "7d",
+        "marketCap": "Market Cap",
+        "volume24h": "Volume (24h)",
+        "supply": "Supply",
+        "searchPlaceholder": "Search BTC, SOL…"
+      },
+      "sortOptions": {
+        "marketCap": "Market Cap",
+        "volume": "Volume 24h",
+        "price": "Price",
+        "change24h": "24h Change"
+      },
+      "marketOverview": {
+        "totalMarketCap": "Total Market Cap",
+        "volume24h": "24h Volume",
+        "avgChange24h": "Avg 24h Change",
+        "topCryptocurrencies": "Top Cryptocurrencies",
+        "allCryptocurrencies": "All Cryptocurrencies"
+      },
+      "filters": {
+        "showFilters": "Show Filters",
+        "filters": "Filters",
+        "clear": "Clear",
+        "refresh": "Refresh",
+        "loadingData": "Loading cryptocurrency data...",
+        "failedToLoad": "Failed to load data",
+        "tryAgain": "Try Again",
+        "noCoinsFound": "No coins found",
+        "adjustSearchCriteria": "Try adjusting your search criteria"
+      },
+      "tickerCards": {
+        "marketCap": "Market Cap",
+        "volume24h": "24h Volume",
+        "change7d": "7d Change",
+        "lastUpdated": "Last updated",
+        "failedToLoad": "Failed to load ticker data"
+      },
+      "pagination": {
+        "page": "Page",
+        "morePagesAvailable": "More pages available",
+        "more": "More",
+        "perPage": "per page",
+        "firstPage": "First page",
+        "previousPage": "Previous page",
+        "nextPage": "Next page"
+      }
+    },
+    "charts": {
+      "title": "Price Charts",
+      "subtitle": "Advanced price momentum and trend analysis"
+    },
+    "premium": {
+      "title": "Premium Features",
+      "subtitle": "Unlock advanced AI-powered trading insights"
+    },
+    "solanaDex": {
+      "title": "Solana DEX Analytics",
+      "subtitle": "Real-time Solana DEX trading data and whale activity",
+      "topTraders": "Top Traders",
+      "whaleActivity": "Whale Activity",
+      "trendingPairs": "Trending Trading Pairs",
+      "table": {
+        "pair": "Pair",
+        "price": "Price",
+        "change24h": "24h Change",
+        "volume": "Volume",
+        "liquidity": "Liquidity"
+      },
+      "trader": {
+        "favorite": "Fav",
+        "trades": "Trades",
+        "winRate": "Win",
+        "follow": "Follow"
+      },
+      "whale": {
+        "bought": "Bought",
+        "sold": "Sold"
+      }
+    },
+    "tasi": {
+      "title": "TASI Stock Market",
+      "subtitle": "Saudi Arabia stock market analysis and AI-powered insights",
+      "disclaimer": "All signals are for informational purposes only. Not financial advice.",
+      "topGainers": "Top Gainers",
+      "topLosers": "Top Losers",
+      "mostActive": "Most Active",
+      "sectorPerformance": "Sector Performance",
+      "aiSignals": "AI Trading Signals",
+      "table": {
+        "symbol": "Symbol",
+        "name": "Company Name",
+        "price": "Price",
+        "change": "Change",
+        "changePercent": "Change %",
+        "volume": "Volume",
+        "marketCap": "Market Cap",
+        "sector": "Sector"
+      },
+      "signals": {
+        "strongBuy": "Strong Buy",
+        "buy": "Buy",
+        "hold": "Hold",
+        "sell": "Sell",
+        "strongSell": "Strong Sell"
+      }
+    },
+    "rugChecker": {
+      "title": "Rug Checker",
+      "subtitle": "Analyze token contracts for potential rug pulls and security risks",
+      "checkToken": "Check Token",
+      "contractAddress": "Contract Address",
+      "analysisResults": "Analysis Results",
+      "riskLevel": "Risk Level",
+      "lowRisk": "Low Risk",
+      "mediumRisk": "Medium Risk",
+      "highRisk": "High Risk",
+      "checks": {
+        "liquidityLocked": "Liquidity Locked",
+        "ownerRenounced": "Owner Renounced",
+        "verifiedContract": "Verified Contract",
+        "honeypotCheck": "Honeypot Check",
+        "mintFunction": "Mint Function",
+        "burnFunction": "Burn Function"
+      }
+    },
+    "notifications": {
+      "title": "Token Notifications",
+      "subtitle": "Get alerts for new token launches and market opportunities",
+      "newTokens": "New Token Alerts",
+      "marketCapRange": "Market Cap Range",
+      "memeTokens": "Meme Token Alerts",
+      "customAlerts": "Custom Alerts",
+      "addContract": "Add Contract Address",
+      "alertSettings": "Alert Settings"
+    },
+    "admin": {
+      "title": "Admin Panel",
+      "subtitle": "Manage subscriptions, users, and platform settings",
+      "subscriptions": "Subscriptions",
+      "users": "Users",
+      "analytics": "Analytics",
+      "settings": "Settings"
+    },
+    "socialTrading": {
+      "title": "Social Trading",
+      "subtitle": "Follow top traders and copy their strategies",
+      "topTraders": "Top Traders",
+      "copyTrading": "Copy Trading",
+      "performance": "Performance",
+      "follow": "Follow",
+      "unfollow": "Unfollow"
+    }
+  },
+  "features": {
+    "trendPrediction": {
+      "title": "Trend Prediction AI",
+      "description": "ML models on historical OHLCV for momentum pivots."
+    },
+    "sentimentAnalysis": {
+      "title": "Sentiment Analysis",
+      "description": "Twitter/X, Reddit, Google Trends scoring."
+    },
+    "smartSignals": {
+      "title": "Smart Signals",
+      "description": "Breakouts, surges, whale tracking alerts."
+    },
+    "riskPortfolio": {
+      "title": "Risk & Portfolio Reports",
+      "description": "Exposure, VaR, drawdown, portfolio health."
+    },
+    "aiChat": {
+      "title": "AI Chat Advisor",
+      "description": "Decoding hidden market signals."
+    },
+    "newsImpact": {
+      "title": "News Impact Detection",
+      "description": "Real-time news analysis on token prices."
+    }
+  },
+  "wallet": {
+    "connect": "Connect Wallet",
+    "connectShort": "Connect",
+    "connecting": "Connecting...",
+    "disconnecting": "Disconnecting...",
+    "loggingIn": "Logging in...",
+    "loginFailed": "Login failed. Please try again.",
+    "copyAddress": "Copy Address",
+    "copied": "Copied!",
+    "viewOnSolscan": "View on Solscan",
+    "disconnect": "Disconnect"
+  },
+  "ui": {
+    "unlockPremium": "Unlock Premium",
+    "switchToEnglish": "Switch to English",
+    "switchToArabic": "التبديل إلى العربية",
+    "switchToDarkMode": "Switch to dark mode",
+    "switchToLightMode": "Switch to light mode",
+    "toggleMenu": "Toggle menu"
+  }
+}
